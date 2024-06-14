@@ -1,0 +1,72 @@
+.header_name{
+    font-size: 11px;
+    margin-top: -10px;
+}
+.navbar{
+    font-weight: 500;
+}
+a{
+    color: black;
+}
+.Menu_bar{
+    background-image: url(images/2nd.png);
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.menubar{
+    background-image: url(images/3rd.png);
+    height: 650px;
+    background-repeat: no-repeat;
+}
+.menubar img{
+    height: 70px;
+    width: 100%;
+}
+.speacial-1{
+    background-image: url(images/Special\ 3.jfif);
+    height: 270px;
+    opacity: 0.6;
+}
+.speacial-2{
+    background-image: url(images/Special\ 2.jfif);
+    height: 270px;
+    opacity: 0.6;
+}
+.speacial-3{
+    background-image: url(images/Special\ 3.jfif);
+    height: 270px;
+    opacity: 0.6;
+}
+.checken_menu{
+    background-color: white;
+    height: 480px;
+}
+.checken_menu img{
+    height: 300px;
+    border-radius: 15px;
+}
+.Extra img{
+    height: 350px;
+    width: 100%;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 3; }
+    .div2 { grid-area: 1 / 5 / 3 / 7; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+    .div5 { grid-area: 2 / 3 / 3 / 5; }
+    .b img{
+        width: 100%;
+        height: 400px;
+    }
+    .c img{
+        width: 100%;
+        height: 200px;
+    }
